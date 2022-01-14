@@ -4,15 +4,17 @@ import { Flex } from "@chakra-ui/react";
 interface BannerProps {
   children: ReactNode;
   imageUrl: string;
+  height?: string;
 }
 
-const Banner = ({ children, imageUrl }: BannerProps) => {
+const Banner = ({ children, imageUrl, height }: BannerProps) => {
   return (
     <Flex
       as="main"
       w="100%"
-      h="300px"
+      h={height}
       backgroundImage={imageUrl}
+      backgroundRepeat="no-repeat"
       backgroundPosition="center"
       backgroundSize="cover"
       mb="10"

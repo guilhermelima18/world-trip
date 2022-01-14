@@ -1,0 +1,205 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "name": "Europa",
+      "description": "Europa é um dos seis continentes do mundo, localizado a oeste da Ásia e ao norte da África. O continente é composto por 50 países e possui o maior bloco econômico do mundo.",
+      "image": "https://cdn.pixabay.com/photo/2014/11/13/23/34/palace-530055_960_720.jpg",
+      "countries": [
+        {
+          "id": 1,
+          "name": "Alemanha",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
+          "capitalCountry": "Berlim",
+          "population": "83,24 milhões (2020)"
+        },
+        {
+          "id": 2,
+          "name": "França",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg",
+          "capitalCountry": "Paris",
+          "population": "67,39 milhões (2020)"
+        },
+        {
+          "id": 3,
+          "name": "Itália",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+          "capitalCountry": "Roma",
+          "population": "59,55 milhões (2020)"
+        },
+        {
+          "id": 4,
+          "name": "Espanha",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg",
+          "capitalCountry": "Madrid",
+          "population": "47,35 milhões (2020)"
+        },
+        {
+          "id": 5,
+          "name": "Portugal",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
+          "capitalCountry": "Lisboa",
+          "population": "10,31 milhões (2020)"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ásia",
+      "description": "A Ásia é um dos continentes do mundo, considerado o mais extenso territorialmente e o mais populoso também.",
+      "image": "https://cdn.pixabay.com/photo/2020/07/23/01/16/heritage-5430081_960_720.jpg",
+      "countries": [
+        {
+          "id": 1,
+          "name": "China",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
+          "capitalCountry": "Pequim",
+          "population": "1,402 bilhão (2020)"
+        },
+        {
+          "id": 2,
+          "name": "Indonésia",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
+          "capitalCountry": "Jacarta",
+          "population": "273,50 milhões (2020)"
+        },
+        {
+          "id": 3,
+          "name": "Índia",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_India.svg",
+          "capitalCountry": "Nova Delhi",
+          "population": "1,38 bilhão (2020)"
+        },
+        {
+          "id": 4,
+          "name": "Coréia do Sul",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+          "capitalCountry": "Seul",
+          "population": "51,78 milhões (2020)"
+        },
+        {
+          "id": 5,
+          "name": "Japão",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg",
+          "capitalCountry": "Tóquio",
+          "population": "125,80 milhões (2020)"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "América do Norte",
+      "description": "A América do Norte é composta por 3 países: Canadá, Estados Unidos e México. Estados Unidos e o Canadá são grandes potências mundiais.",
+      "image": "https://cdn.pixabay.com/photo/2016/11/06/17/17/north-america-1803504_960_720.jpg",
+      "countries": [
+        {
+          "id": 1,
+          "name": "Estados Unidos",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg",
+          "capitalCountry": "Washington, D.C",
+          "population": "329,50 milhões (2020)"
+        },
+        {
+          "id": 2,
+          "name": "Canadá",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg",
+          "capitalCountry": "Ottawa",
+          "population": "38,01 milhões (2020)"
+        },
+        {
+          "id": 3,
+          "name": "Groenlândia",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_Greenland.svg",
+          "capitalCountry": "Nuuk",
+          "population": "56.367 mil (2020)"
+        },
+        {
+          "id": 4,
+          "name": "México",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
+          "capitalCountry": "Cidade do México",
+          "population": "128,90 milhões (2020)"
+        },
+        {
+          "id": 5,
+          "name": "República Dominicana",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_the_Dominican_Republic.svg",
+          "capitalCountry": "Santo Domingo",
+          "population": "10,85 milhões (2020)"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "América do Sul",
+      "description": "A América do Sul é um dos subcontinentes da América. Apresenta paisagens naturais muito diversas e uma enorme biodiversidade, abrigando a maior floresta tropical do mundo.",
+      "image": "https://cdn.pixabay.com/photo/2017/01/08/19/30/rio-de-janeiro-1963744_960_720.jpg",
+      "countries": [
+        {
+          "id": 1,
+          "name": "Brasil",
+          "imageCountry": "https://s3.static.brasilescola.uol.com.br/be/2021/11/bandeira-do-brasil.jpg",
+          "capitalCountry": "Brasília",
+          "population": "212,60 milhões (2020)"
+        },
+        {
+          "id": 2,
+          "name": "Argentina",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+          "capitalCountry": "Buenos Aires",
+          "population": "45,38 milhões (2020)"
+        },
+        {
+          "id": 3,
+          "name": "Chile",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
+          "capitalCountry": "Santiago",
+          "population": "19,12 milhões (2020)"
+        },
+        {
+          "id": 4,
+          "name": "Uruguai",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg",
+          "capitalCountry": "Montevidéu",
+          "population": "3,47 milhões (2020)"
+        },
+        {
+          "id": 5,
+          "name": "Paraguai",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/2/27/Flag_of_Paraguay.svg",
+          "capitalCountry": "Assunção",
+          "population": "7,13 milhões (2020)"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Oceania",
+      "description": "Oceania é um continente localizado entre os oceanos Índico e Pacífico, formado por 14 países insulares e diversos territórios ultramarinos. Possui 42 milhões de habitantes.",
+      "image": "https://cdn.pixabay.com/photo/2014/05/26/09/58/sydney-opera-house-354375_960_720.jpg",
+      "countries": [
+        {
+          "id": 1,
+          "name": "Austrália",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
+          "capitalCountry": "Camberra",
+          "population": "25,69 milhões (2020)"
+        },
+        {
+          "id": 2,
+          "name": "Nova Zelândia",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+          "capitalCountry": "Wellington",
+          "population": "5,08 milhões (2020)"
+        },
+        {
+          "id": 3,
+          "name": "Papua-Nova Guiné",
+          "imageCountry": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg",
+          "capitalCountry": "Port Moresby",
+          "population": "8,94 milhões (2020)"
+        }
+      ]
+    }
+  ]
+}

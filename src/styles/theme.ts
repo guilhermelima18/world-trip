@@ -14,6 +14,9 @@ export const theme = extendTheme({
       "100": "#d1d2dc",
       "50": "#eeeef2",
     },
+    yellow: {
+      "400": "#FFBA0880",
+    },
   },
   fonts: {
     heading: "Roboto",
@@ -22,7 +25,6 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        /* bg: "gray.900", */
         color: "gray.50",
       },
     },
