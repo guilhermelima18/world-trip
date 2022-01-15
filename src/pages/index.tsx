@@ -6,10 +6,11 @@ import {
   Text,
   VStack,
   Image,
-  SimpleGrid,
+  useMediaQuery,
 } from "@chakra-ui/react";
 import Banner from "../components/Banner";
-import { Carousel } from "../components/Carousel";
+import { SwiperCarousel } from "../components/SwiperCarousel";
+import WorldEnvironments from "../components/WorldEnvironments";
 import { api } from "../services/api";
 
 interface HomeProps {
@@ -22,6 +23,7 @@ interface HomeProps {
 const Home = () => {
   const imageUrl = "/assets/background.svg";
   const [continents, setContinents] = useState<HomeProps[]>([]);
+  const [isLessThan780] = useMediaQuery("(max-width: 780px)");
 
   useEffect(() => {
     async function getContinents() {
@@ -44,7 +46,11 @@ const Home = () => {
       </Head>
       <Flex flexDirection="column">
         <Banner imageUrl={imageUrl} height="300px">
-          <VStack justifyContent="center">
+          <VStack
+            alignItems="flex-start"
+            justifyContent="center"
+            px={isLessThan780 && "10"}
+          >
             <Heading size="lg" mb="5">
               5 Continentes,
               <br />
@@ -56,45 +62,14 @@ const Home = () => {
               sempre sonhou.
             </Text>
           </VStack>
-          <VStack justifyContent="center" mb="-60px">
-            <Image src="/assets/airplane.svg" alt="Avião nas nuvens" />
-          </VStack>
+          {!isLessThan780 && (
+            <VStack justifyContent="center" mb="-60px">
+              <Image src="/assets/airplane.svg" alt="Avião nas nuvens" />
+            </VStack>
+          )}
         </Banner>
 
-        <VStack w="100%" maxW="1200px" mx="auto" spacing="8" my="10">
-          <SimpleGrid minChildWidth="200px" spacing={["6", "8"]} width="100%">
-            <VStack justifyContent="center">
-              <Image src="/assets/cocktail.svg" alt="Cocktail" />
-              <Text color="gray.900" mt="5">
-                vida noturna
-              </Text>
-            </VStack>
-            <VStack justifyContent="center">
-              <Image src="/assets/surf.svg" alt="Cocktail" />
-              <Text color="gray.900" mt="5">
-                praia
-              </Text>
-            </VStack>
-            <VStack justifyContent="center">
-              <Image src="/assets/building.svg" alt="Cocktail" />
-              <Text color="gray.900" mt="5">
-                moderno
-              </Text>
-            </VStack>
-            <VStack justifyContent="center">
-              <Image src="/assets/museum.svg" alt="Cocktail" />
-              <Text color="gray.900" mt="5">
-                clássico
-              </Text>
-            </VStack>
-            <VStack justifyContent="center">
-              <Image src="/assets/earth.svg" alt="Cocktail" />
-              <Text color="gray.900" mt="5">
-                e mais
-              </Text>
-            </VStack>
-          </SimpleGrid>
-        </VStack>
+        <WorldEnvironments />
 
         <VStack my="10">
           <Heading color="gray.900" textAlign="center">
@@ -104,9 +79,7 @@ const Home = () => {
           </Heading>
         </VStack>
 
-        <VStack w="100%" maxW="1200px" mx="auto" spacing="8" my="10">
-          <Carousel continents={continents} />
-        </VStack>
+        <SwiperCarousel continents={continents} />
       </Flex>
     </>
   );
